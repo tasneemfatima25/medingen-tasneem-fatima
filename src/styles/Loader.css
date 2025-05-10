@@ -1,0 +1,43 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(137, 135, 135, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 80px;
+    height: 80px;
+    border: 8px solid transparent;
+    border-top: 8px solid #2f9f4f; 
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite, glow 1.5s ease-in-out infinite;
+    box-shadow: 0 0 15px rgba(47, 159, 79, 0.8), 0 0 25px rgba(47, 159, 79, 0.6); 
+    background: linear-gradient(45deg, #2f9f4f, #666666, #ffffff);\
+    background-size: 200% 200%;
+}
+
+/* Spinning effect */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Glowing and pulsing effect */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px rgba(47, 159, 79, 0.6), 0 0 15px rgba(47, 159, 79, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 30px rgba(47, 159, 79, 1), 0 0 45px rgba(47, 159, 79, 0.8);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(47, 159, 79, 0.6), 0 0 15px rgba(47, 159, 79, 0.4);
+    }
+}

@@ -1,0 +1,99 @@
+.rating-container {
+    margin: 60px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+  }
+  
+  .starss {
+    margin: 10px 0;
+  }
+  
+  .starr {
+    font-size: 24px;
+    color: lightgray;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .star.active {
+    color: #FFBF00;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+.buttonSubmit {
+    background: black;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+  
+  .avg {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .reviews-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .review-item {
+    margin-bottom: 20px;
+  }
+  
+  .stars-with-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .rating-number {
+    margin-left: 10px;
+    font-size: 14px;
+    background: #f0f0f0;
+    padding: 2px 8px;
+    border-radius: 8px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    margin-top: 4px;
+    font-style: italic;
+  }
+
+  .rating-form {
+    margin-bottom: 30px;
+    padding: 0 10px; 
+  }
+
+
+textarea {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px 14px;
+  font-size: 15px;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: sans-serif;
+  box-sizing: border-box; 
+  border: 3px solid #0c0c0c;
+}

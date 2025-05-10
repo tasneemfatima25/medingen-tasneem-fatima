@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: gray;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition:'background 0.3s, color 0.3s';
+}
+
+.nav-item.active {
+  background-color: #f3e8ff;
+  color: black;
+}
+
+.cart-icon {
+  background-color: white;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.Logo {
+  height: 60px;  /* or any preferred size */
+  width: auto;
+  object-fit: contain;
+}
+.logo-text{
+  font-size: 30px;
+  padding-left: 10px;
+  color: rgba(23, 23, 23, 0.921);
+}
+

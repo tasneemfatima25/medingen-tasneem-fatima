@@ -1,0 +1,83 @@
+.profile-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #444;
+    box-sizing: border-box;
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: 444;
+  }
+  
+  .profile-info {
+    margin-bottom: 15px;
+  }
+  
+  .profile-info label {
+    display: block;
+    margin-bottom: 5px;
+    color: 444;
+  }
+  
+  .profile-info input {
+    width: 100%;
+    padding: 8px;
+    color: #444;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  .submit-button {
+    background-color: black;      
+    color: white;                    
+    padding: 10px 20px;           
+    border: none;                  
+    border-radius: 8px;              
+    font-size: 16px;               
+    font-weight: 500;                
+    cursor: pointer;                  
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .signup-button {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-button:hover {
+    background-color:rgba(0, 0, 0, 0.782);
+    color: white;
+  }
+  .logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .logo-icon {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;        
+    align-items: center; 
+    justify-content: center; 
+  }
+  
