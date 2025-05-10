@@ -21,6 +21,7 @@ const MedicineDetails = () => {
         if (response.ok && response.headers.get('Content-Type').includes('application/json')) {
           const data = await response.json();
           setMedicines(data.data);
+          console.log(data.data);
         } else {
           const textResponse = await response.text();
           setError('Error: ' + textResponse);

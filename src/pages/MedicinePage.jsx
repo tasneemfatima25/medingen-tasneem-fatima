@@ -19,7 +19,7 @@ const MedicinePage = () => {
         }
 
         const data = await response.json();
-        setAlternatives(data);  // Update the state with the fetched data
+        setAlternatives(data);  
       } catch (err) {
         setError(err.message);
       } finally {
